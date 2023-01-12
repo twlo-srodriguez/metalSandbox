@@ -178,7 +178,7 @@ void MyAppDelegate::applicationDidFinishLaunching( NS::Notification* pNotificati
     _pMtkView->setDelegate( _pViewDelegate );
 
     _pWindow->setContentView( _pMtkView );
-    _pWindow->setTitle( NS::String::string( "00 - Window", NS::StringEncoding::UTF8StringEncoding ) );
+    _pWindow->setTitle( NS::String::string( "Twilio Video App", NS::StringEncoding::UTF8StringEncoding ) );
 
     _pWindow->makeKeyAndOrderFront( nullptr );
 
